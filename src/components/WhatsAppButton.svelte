@@ -1,5 +1,5 @@
 <script>
-  export let phoneNumber = "+1234567890"; // Número de teléfono de WhatsApp por defecto
+  export let phoneNumber = "+5492644369135"; // Número de teléfono de WhatsApp por defecto
   export let message = "¡Hola! Me gustaría más información."; // Mensaje predefinido
 </script>
 
@@ -9,7 +9,8 @@
   target="_blank"
   rel="noopener noreferrer"
   class="fixed
-  bottom-14
+  bottom-36
+  md:bottom-40
   right-14 z-50
   bg-[#25d366]
   rounded-full
