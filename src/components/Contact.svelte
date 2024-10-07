@@ -22,9 +22,9 @@
 
   <!-- Formulario de Contacto -->
   <div
-    class="w-full md:w-1/2 bg-white p-4 md:p-8 py-10 mr-0 md:mr-32 rounded-3xl shadow-lg"
+    class="w-full md:w-1/2 bg-white p-4 md:p-8 py-10 mr-0 md:mr-20 rounded-3xl shadow-lg"
   >
-    <form class="py-8 md:py-28">
+    <form class="py-8 md:py-20">
       <div class="w-full flex flex-col md:flex-row md:space-x-4">
         <!-- Contenedor para Nombre -->
         <div class="mb-4 w-full md:w-1/2">
@@ -36,7 +36,7 @@
           <input
             type="text"
             id="firstName"
-            class="w-full p-3 border-b-4 border-gray-300"
+            class="w-full p-3 border-b-2 border-gray-300"
           />
         </div>
 
@@ -50,7 +50,7 @@
           <input
             type="text"
             id="lastName"
-            class="w-full p-3 border-b-4 border-gray-300"
+            class="w-full p-3 border-b-2 border-gray-300"
           />
         </div>
       </div>
@@ -63,7 +63,7 @@
         <input
           type="email"
           id="email"
-          class="w-full p-3 border-b-4 border-gray-300"
+          class="w-full p-3 border-b-2 border-gray-300"
         />
       </div>
 
@@ -75,7 +75,7 @@
         >
         <textarea
           id="message"
-          class="w-full p-3 border-b-4 border-gray-300"
+          class="w-full p-3 border-b-2 border-gray-300"
           rows="4"
         ></textarea>
       </div>
