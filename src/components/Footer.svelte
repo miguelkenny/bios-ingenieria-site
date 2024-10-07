@@ -38,14 +38,13 @@
     </div>
 
     <!-- Redes sociales a la derecha -->
-    <div class="flex gap-4 md:gap-6 mt-4 md:mt-0">
+    <div class="flex gap-4 md:gap-6 mt-1 md:mt-0 mr-10">
       <a href="https://www.facebook.com" target="_blank">
         <img src="/facebook.png" alt="Facebook" class="h-16 w-16" />
       </a>
       <a href="https://www.linkedin.com" target="_blank">
         <img src="/linkedin.png" alt="LinkedIn" class="h-16 w-16" />
       </a>
-      <!-- Añade más iconos de redes si es necesario -->
     </div>
   </div>
 
