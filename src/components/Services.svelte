@@ -24,7 +24,7 @@
       <!-- Servicio 1 -->
       <div class="text-center">
         <img
-          src="/capacitacion.jpeg"
+          src="/seguridad-e-higiene.jpg"
           alt="Servicio 1"
           class="w-full h-64 md:h-80 object-cover mb-4 rounded-md"
         />
@@ -40,7 +40,7 @@
       <!-- Servicio 2 -->
       <div class="text-center">
         <img
-          src="/capacitacion.jpeg"
+          src="/extinsion-fuego.jpg"
           alt="Servicio 2"
           class="w-full h-64 md:h-80 object-cover mb-4 rounded-md"
         />
@@ -56,12 +56,12 @@
       <!-- Servicio 3 -->
       <div class="text-center">
         <img
-          src="/capacitacion.jpeg"
+          src="/planes-seguridad.jpg"
           alt="Servicio 3"
           class="w-full h-64 md:h-80 object-cover mb-4 rounded-md"
         />
         <h3 class="text-xl md:text-3xl font-semibold mb-2">
-          Programas de Seguridad Planes
+          Programas de Planes de Seguridad
         </h3>
         <p class="text-gray-600 text-base md:text-lg">
           All work is reviewed by our directors to ensure continuity and quality
@@ -71,7 +71,7 @@
 
       <div class="text-center">
         <img
-          src="/capacitacion.jpeg"
+          src="/evaluaciones-auditorias.jpg"
           alt="Servicio 4"
           class="w-full h-64 md:h-80 object-cover mb-4 rounded-md"
         />
@@ -86,7 +86,7 @@
 
       <div class="text-center">
         <img
-          src="/capacitacion.jpeg"
+          src="/situacion-instalaciones.jpg"
           alt="Servicio 3"
           class="w-full h-64 md:h-80 object-cover mb-4 rounded-md"
         />
@@ -116,7 +116,7 @@
 
       <div class="text-center">
         <img
-          src="/capacitacion.jpeg"
+          src="/relevamiento-mediciones.jpg"
           alt="Servicio 3"
           class="w-full h-64 md:h-80 object-cover mb-4 rounded-md"
         />
@@ -131,7 +131,7 @@
 
       <div class="text-center">
         <img
-          src="/capacitacion.jpeg"
+          src="/estudios-ergonomicos.jpg"
           alt="Servicio 3"
           class="w-full h-64 md:h-80 object-cover mb-4 rounded-md"
         />
@@ -146,12 +146,12 @@
 
       <div class="text-center">
         <img
-          src="/capacitacion.jpeg"
+          src="/gestion-logistica.jpg"
           alt="Servicio 3"
           class="w-full h-64 md:h-80 object-cover mb-4 rounded-md"
         />
         <h3 class="text-xl md:text-3xl font-semibold mb-2">
-          Servicios de Integral de Gestión y Logística
+          Servicio Integral de Gestión y Logística
         </h3>
         <p class="text-gray-600 text-base md:text-lg">
           All work is reviewed by our directors to ensure continuity and quality
