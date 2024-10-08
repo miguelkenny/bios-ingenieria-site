@@ -115,7 +115,9 @@
 <Contact />
 <Footer />
 
-<!-- Botón WhatsApp -->
-<WhatsAppButton />
 <!-- Botón para volver arriba -->
 <!--<ScrollToTopButton {showScrollButton} />-->
+<ScrollToTopButton />
+
+<!-- Botón WhatsApp -->
+<WhatsAppButton />
