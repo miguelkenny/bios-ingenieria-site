@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Clash Grotesk';
+  src: url('/src/lib/assets/fonts/ClashGrotesk-Variable.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/src/lib/assets/fonts/Satoshi-Variable.ttf');
+  font-display: swap;
+}
+
+@layer base {
+    .font-outline-2 {
+      -webkit-text-stroke: 2px rgba(0, 0, 0, 0.11);
+    }
+    .font-outline-4 {
+      -webkit-text-stroke: 4px rgba(255, 255, 255, 0.292);
+    }
+  }
+
+html {
+    font-family: 'Satoshi', sans-serif;
+    z-index: 3;
+    color: #F9F9F9;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-behavior: smooth;
+    background: #ffffff;
+}
