@@ -4,10 +4,14 @@
   style="border-radius: 30px;"
 >
   <div class="px-4 md:px-12">
-    <h2 class="font-clashg text-lg text-left mt-4 uppercase font-bold text-DarkBlue">
+    <h2
+      class="font-clashg text-lg text-left mt-4 uppercase font-bold text-DarkBlue"
+    >
       Servicios
     </h2>
-    <p class="font-clashg relative text-2xl md:text-5xl mt-2 font-medium text-left">
+    <p
+      class="font-clashg relative text-2xl md:text-5xl mt-2 font-medium text-left"
+    >
       Descubre Todo En Lo Que Podemos Ayudarte.
     </p>
     <p class="text-lg my-4 text-Gray">
@@ -164,7 +168,9 @@
 
 <section class="mt-12 md:mt-16">
   <div>
-    <h2 class="font-clashg text-lg text-center mt-4 uppercase font-bold text-DarkBlue">
+    <h2
+      class="font-clashg text-lg text-center mt-4 uppercase font-bold text-DarkBlue"
+    >
       Lo Que Nos Distingue
     </h2>
   </div>
@@ -175,7 +181,11 @@
     <div
       class="bg-Black flex items-center justify-center py-3 px-6 md:py-3 md:px-6 w-max text-white rounded-xl border border-gray-300"
     >
-      <img src={"/Icons/shield.svg"} alt="Logo 1" class="h-6 w-6 md:h-8 md:w-8 mr-4" />
+      <img
+        src={"/Icons/shield.svg"}
+        alt="Logo 1"
+        class="h-6 w-6 md:h-8 md:w-8 mr-4"
+      />
       <div>
         <p class="font-clashg font-medium text-md md:text-lg">Calidad</p>
       </div>
@@ -183,11 +193,16 @@
 
     <!-- Tarjeta 2 -->
     <div
-      class="bg-Black flex items-center justify-center py-3 px-6 md:py-3 md:px-6 w-max text-white rounded-xl border border-gray-300"
+      class="bg-Black flex items-center justify-center px-6 md:px-6 w-max text-white rounded-xl border border-gray-300"
     >
-      <img src={"/Icons/stopwatch.svg"} alt="Logo 2" class="h-6 w-6 md:h-8 md:w-8 mr-4" />
+      <img
+        src={"/Icons/stopwatch.svg"}
+        alt="Logo 2"
+        class="h-6 w-6 md:h-8 md:w-8 mr-4"
+      />
       <div>
-        <p class="font-clashg font-medium text-md md:text-lg">Puntualidad En Los Servicios
+        <p class="font-clashg font-medium text-md md:text-lg">
+          Puntualidad En Los Servicios
         </p>
       </div>
     </div>
@@ -196,9 +211,15 @@
     <div
       class="bg-Black flex items-center justify-center py-3 px-6 md:py-3 md:px-6 w-max text-white rounded-xl border border-gray-300"
     >
-      <img src={"/Icons/money.svg"} alt="Logo 3" class="h-6 w-6 md:h-8 md:w-8 mr-4" />
+      <img
+        src={"/Icons/money.svg"}
+        alt="Logo 3"
+        class="h-6 w-6 md:h-8 md:w-8 mr-4"
+      />
       <div>
-        <p class="font-clashg font-medium text-md md:text-lg">Precios Competitivos</p>
+        <p class="font-clashg font-medium text-md md:text-lg">
+          Precios Competitivos
+        </p>
       </div>
     </div>
 
@@ -206,9 +227,14 @@
     <div
       class="bg-Black flex items-center justify-center py-3 px-6 md:py-3 md:px-6 w-max text-white rounded-xl border border-gray-300"
     >
-      <img src={"/Icons/terminal.svg"} alt="Logo 4" class="h-6 w-6 md:h-8 md:w-8 mr-4" />
+      <img
+        src={"/Icons/terminal.svg"}
+        alt="Logo 4"
+        class="h-6 w-6 md:h-8 md:w-8 mr-4"
+      />
       <div>
-        <p class="font-clashg font-medium text-md md:text-lg">Permanente Avance Tecnológico
+        <p class="font-clashg font-medium text-md md:text-lg">
+          Permanente Avance Tecnológico
         </p>
       </div>
     </div>
