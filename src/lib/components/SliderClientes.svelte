@@ -158,9 +158,12 @@
     margin: 0;
     box-sizing: border-box;
   }
+
   .Marquees {
     overflow-x: hidden;
+    width: 100%;
   }
+
   .Marquee {
     display: flex;
     align-items: center;
@@ -168,6 +171,7 @@
     width: 200vw;
     height: 13vh;
   }
+
   .marquee {
     display: flex;
     align-items: center;
@@ -175,11 +179,17 @@
     background: #1a1a1a00;
     height: 11vh;
     width: 12.5vw;
-    /*line 43 is very important. since we have 16 items, width of the Marquee which is 200vw must be devided between them. which turns out to be 12.5vw*/
-    margin: 10px;
+    margin: 5px; /* Reducir el margen para que las filas estén más juntas */
     border-radius: 15px;
   }
 
+  /* Para asegurar que las imágenes mantengan su tamaño y se adapten al contenedor */
+  .marquee img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  /* Animaciones para la primera y segunda fila */
   .FirstRow {
     animation: Scroll 30s linear infinite;
   }
@@ -187,14 +197,37 @@
     animation: Scroll 30s linear infinite;
     animation-direction: reverse;
   }
+
+  /* Animación de scrolling */
   @keyframes Scroll {
     0% {
       transform: translateX(-50vw);
-      -webkit-transform: translateX(-50vw);
     }
     100% {
       transform: translateX(50vw);
-      -webkit-transform: translateX(50vw);
+    }
+  }
+
+  /* Ajustes para móviles */
+  @media (max-width: 768px) {
+    body {
+      height: 35vh; /* Ajustar el alto del contenedor en móviles para reducir la separación */
+    }
+
+    .Marquee {
+      width: 300vw; /* Aumentar el ancho total para más espacio de desplazamiento */
+      height: 13vh; /* Reducir la altura de cada fila en móviles */
+    }
+
+    .marquee {
+      width: 35vw; /* Hacer cada ítem más ancho en móviles */
+      height: 13vh; /* Ajustar la altura de los ítems en móviles */
+      margin: 3px; /* Reducir aún más el margen en móviles */
+    }
+
+    .FirstRow,
+    .SecondRow {
+      animation-duration: 20s; /* Reducir la velocidad de la animación en móviles */
     }
   }
 </style>
