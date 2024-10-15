@@ -4,7 +4,7 @@
   let logos = [
     "/Clients/Cummins.png",
     "/Clients/Datum.png",
-    "/Clients/ExploService.png",
+    "/Clients/Exploservice.png",
     "/Clients/Maxiklak.png",
     "/Clients/Sibelco.png",
     "/Clients/Epiroc.png",
@@ -31,8 +31,8 @@
       </div>
       <div class="marquee Item">
         <img
-          src="/Clients/ExploService.png"
-          alt="ExploService"
+          src="/Clients/Exploservice.png"
+          alt="Exploservice"
           class="object-cover"
         />
       </div>
@@ -54,8 +54,8 @@
       </div>
       <div class="marquee Item">
         <img
-          src="/Clients/ExploService.png"
-          alt="ExploService"
+          src="/Clients/Exploservice.png"
+          alt="Exploservice"
           class="object-cover"
         />
       </div>
@@ -76,8 +76,8 @@
       </div>
       <div class="marquee Item">
         <img
-          src="/Clients/ExploService.png"
-          alt="ExploService"
+          src="/Clients/Exploservice.png"
+          alt="Exploservice"
           class="object-cover"
         />
       </div>
@@ -95,8 +95,8 @@
       </div>
       <div class="marquee Item">
         <img
-          src="/Clients/ExploService.png"
-          alt="ExploService"
+          src="/Clients/Exploservice.png"
+          alt="Exploservice"
           class="object-cover"
         />
       </div>
@@ -124,8 +124,8 @@
       </div>
       <div class="marquee Item">
         <img
-          src="/Clients/ExploService.png"
-          alt="ExploService"
+          src="/Clients/Exploservice.png"
+          alt="Exploservice"
           class="object-cover"
         />
       </div>
