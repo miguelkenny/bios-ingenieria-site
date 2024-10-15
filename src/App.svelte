@@ -41,33 +41,41 @@
     <div class="logo">
       <img src="/logo.png" alt="Logo" class="h-8 w-auto mr-12" />
     </div>
-  
+
     <!-- Ícono de menú para móviles -->
     <button class="block md:hidden text-3xl" on:click={toggleMenu}>
       &#9776;
     </button>
-  
+
     <!-- Opciones de navegación (se ocultan en dispositivos móviles) -->
     <div class="hidden md:flex gap-12">
       <a
         href="#services"
-        class="font-clashg font-medium text-md text-black hover:text-blue-800">Servicios</a
+        class="font-clashg font-medium text-md text-black hover:text-blue-800"
+        >Servicios</a
       >
       <a
         href="#industries"
-        class="font-clashg font-medium text-md text-black hover:text-blue-800">Industrias</a
+        class="font-clashg font-medium text-md text-black hover:text-blue-800"
+        >Industrias</a
       >
-      <a href="#about" class="font-clashg font-medium text-md text-black hover:text-blue-800"
+      <a
+        href="#about"
+        class="font-clashg font-medium text-md text-black hover:text-blue-800"
         >Sobre Nosotros</a
       >
-      <a href="#faq" class="font-clashg font-medium text-md text-black hover:text-blue-800"
+      <a
+        href="#faq"
+        class="font-clashg font-medium text-md text-black hover:text-blue-800"
         >FAQs</a
       >
-      <a href="#contact" class="font-clashg font-medium text-md text-Blue hover:text-blue-800"
+      <a
+        href="#contact"
+        class="font-clashg font-medium text-md text-Blue hover:text-blue-800"
         >Contacto</a
       >
     </div>
-  
+
     <!-- Menú desplegable para móviles -->
     {#if isMenuOpen}
       <div
@@ -101,9 +109,9 @@
       </div>
     {/if}
   </nav>
-  
+
   <!-- Secciones del sitio -->
-  
+
   <Header />
   <SliderClientes />
   <Services />
@@ -115,11 +123,10 @@
   <SliderBios />
   <Contact />
   <Footer />
-  
+
   <!-- Botón para volver arriba -->
-  <!--<ScrollToTopButton {showScrollButton} />-->
-  <ScrollToTopButton />
-  
+  <ScrollToTopButton {showScrollButton} />
+
   <!-- Botón WhatsApp -->
   <WhatsAppButton />
 </div>

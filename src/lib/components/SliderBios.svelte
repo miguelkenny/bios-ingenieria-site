@@ -11,19 +11,21 @@
   ];
 </script>
 
-<h2 class="font-clashg text-lg text-center mt-4 uppercase font-bold text-DarkBlue pb-8">
+<h2
+  class="font-clashg text-lg text-center mt-4 uppercase font-bold text-DarkBlue pb-8"
+>
   BIOS En Acción
 </h2>
 <div class="logo-container py-16">
   <div class="logo-carousel">
     {#each logos as logo (logo)}
-      <div class="logo-item">
+      <div class="logo-item FirstRow">
         <img src={logo} alt="Company Logo" class="rounded-3xl" />
       </div>
     {/each}
     {#each logos as logo (logo)}
       <!-- Segunda fila para un loop infinito -->
-      <div class="logo-item">
+      <div class="logo-item FirstRow">
         <img src={logo} alt="Company Logo" class="rounded-3xl" />
       </div>
     {/each}
@@ -66,13 +68,16 @@
     object-fit: cover; /* Esto asegura que la imagen mantenga su proporción */
   }
 
+  .FirstRow {
+    animation: Scroll 20s linear infinite;
+  }
   /* Animación de desplazamiento */
-  @keyframes scroll {
-    100% {
-      transform: translateX(100%);
+  @keyframes Scroll {
+    0% {
+      transform: translateX(50vw);
     }
     100% {
-      transform: translateX(-100%);
+      transform: translateX(-50vw);
     }
   }
 </style>
