@@ -176,7 +176,7 @@
   </div>
 
   <!-- Contenedor para las tarjetas, ajustado para móvil -->
-  <div class="flex w-full justify-center flex-wrap my-6 gap-x-5 space-y-3">
+  <div class="flex w-full justify-center flex-wrap my-6 gap-x-5 gap-y-3">
     <!-- Tarjeta 1 -->
     <div
       class="bg-Black flex items-center justify-center py-3 px-6 md:py-3 md:px-6 w-max text-white rounded-xl border border-gray-300"

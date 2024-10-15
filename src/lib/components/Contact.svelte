@@ -87,22 +87,4 @@
       </button>
     </form>
   </div>
-
-  <!-- Semicírculo en la esquina inferior izquierda (oculto en móviles) -->
-  <div class="absolute bottom-0 left-0 w-full md:w-auto">
-    <img
-      src="/semicirculo.png"
-      alt="semicirculo"
-      class="semicircle hidden md:block"
-    />
-  </div>
 </section>
-
-<style>
-  /* Semicírculo en la esquina inferior izquierda */
-  .semicircle {
-    width: 100%; /* Ajusta el tamaño según sea necesario */
-    max-width: 850px; /* Tamaño máximo para pantallas grandes */
-    height: auto;
-  }
-</style>
