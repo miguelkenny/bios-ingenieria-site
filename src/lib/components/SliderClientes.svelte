@@ -2,12 +2,12 @@
   import { Marquee } from "flowbite-svelte";
   // Puedes agregar más logos o usar logos dinámicamente si es necesario
   let logos = [
-    "/clients/Cummins.png",
-    "/clients/Datum.png",
-    "/clients/ExploService.png",
-    "/clients/Maxiklak.png",
-    "/clients/Sibelco.png",
-    "/clients/Epiroc.png",
+    "/Clients/Cummins.png",
+    "/Clients/Datum.png",
+    "/Clients/ExploService.png",
+    "/Clients/Maxiklak.png",
+    "/Clients/Sibelco.png",
+    "/Clients/Epiroc.png",
   ];
 </script>
 
@@ -21,62 +21,62 @@
   <div class="Marquees">
     <div class="Marquee FirstRow">
       <div class="marquee Item">
-        <img src="/clients/Cummins.png" alt="Cummins" class="object-cover" />
+        <img src="/Clients/Cummins.png" alt="Cummins" class="object-cover" />
       </div>
       <div class="marquee Item">
-        <img src="/clients/Maxiklak.png" alt="Maxiklak" class="object-cover" />
+        <img src="/Clients/Maxiklak.png" alt="Maxiklak" class="object-cover" />
       </div>
       <div class="marquee Item">
-        <img src="/clients/Datum.png" alt="Datum" class="object-cover" />
+        <img src="/Clients/Datum.png" alt="Datum" class="object-cover" />
       </div>
       <div class="marquee Item">
         <img
-          src="/clients/ExploService.png"
+          src="/Clients/ExploService.png"
           alt="ExploService"
           class="object-cover"
         />
       </div>
       <div class="marquee Item">
-        <img src="/clients/Sibelco.png" alt="Sibelco" class="object-cover" />
+        <img src="/Clients/Sibelco.png" alt="Sibelco" class="object-cover" />
       </div>
       <div class="marquee Item">
-        <img src="/clients/Epiroc.png" alt="Epiroc" class="object-cover" />
+        <img src="/Clients/Epiroc.png" alt="Epiroc" class="object-cover" />
       </div>
       <div class="marquee Item">
-        <img src="/clients/Cummins.png" alt="Cummins" class="object-cover" />
+        <img src="/Clients/Cummins.png" alt="Cummins" class="object-cover" />
       </div>
       <div class="marquee Item">
-        <img src="/clients/Maxiklak.png" alt="Maxiklak" class="object-cover" />
+        <img src="/Clients/Maxiklak.png" alt="Maxiklak" class="object-cover" />
       </div>
 
       <div class="marquee Item">
-        <img src="/clients/Datum.png" alt="Datum" class="object-cover" />
+        <img src="/Clients/Datum.png" alt="Datum" class="object-cover" />
       </div>
       <div class="marquee Item">
         <img
-          src="/clients/ExploService.png"
+          src="/Clients/ExploService.png"
           alt="ExploService"
           class="object-cover"
         />
       </div>
       <div class="marquee Item">
-        <img src="/clients/Sibelco.png" alt="Sibelco" class="object-cover" />
+        <img src="/Clients/Sibelco.png" alt="Sibelco" class="object-cover" />
       </div>
       <div class="marquee Item">
-        <img src="/clients/Epiroc.png" alt="Epiroc" class="object-cover" />
+        <img src="/Clients/Epiroc.png" alt="Epiroc" class="object-cover" />
       </div>
       <div class="marquee Item">
-        <img src="/clients/Cummins.png" alt="Cummins" class="object-cover" />
+        <img src="/Clients/Cummins.png" alt="Cummins" class="object-cover" />
       </div>
       <div class="marquee Item">
-        <img src="/clients/Maxiklak.png" alt="Maxiklak" class="object-cover" />
+        <img src="/Clients/Maxiklak.png" alt="Maxiklak" class="object-cover" />
       </div>
       <div class="marquee Item">
-        <img src="/clients/Datum.png" alt="Datum" class="object-cover" />
+        <img src="/Clients/Datum.png" alt="Datum" class="object-cover" />
       </div>
       <div class="marquee Item">
         <img
-          src="/clients/ExploService.png"
+          src="/Clients/ExploService.png"
           alt="ExploService"
           class="object-cover"
         />
@@ -85,61 +85,61 @@
 
     <div class="Marquee SecondRow">
       <div class="marquee Item">
-        <img src="/clients/Cummins.png" alt="Cummins" class="object-cover" />
+        <img src="/Clients/Cummins.png" alt="Cummins" class="object-cover" />
       </div>
       <div class="marquee Item">
-        <img src="/clients/Maxiklak.png" alt="Maxiklak" class="object-cover" />
+        <img src="/Clients/Maxiklak.png" alt="Maxiklak" class="object-cover" />
       </div>
       <div class="marquee Item">
-        <img src="/clients/Datum.png" alt="Datum" class="object-cover" />
+        <img src="/Clients/Datum.png" alt="Datum" class="object-cover" />
       </div>
       <div class="marquee Item">
         <img
-          src="/clients/ExploService.png"
+          src="/Clients/ExploService.png"
           alt="ExploService"
           class="object-cover"
         />
       </div>
       <div class="marquee Item">
-        <img src="/clients/Sibelco.png" alt="Sibelco" class="object-cover" />
+        <img src="/Clients/Sibelco.png" alt="Sibelco" class="object-cover" />
       </div>
       <div class="marquee Item">
-        <img src="/clients/Epiroc.png" alt="Epiroc" class="object-cover" />
+        <img src="/Clients/Epiroc.png" alt="Epiroc" class="object-cover" />
       </div>
       <div class="marquee Item">
-        <img src="/clients/Cummins.png" alt="Cummins" class="object-cover" />
+        <img src="/Clients/Cummins.png" alt="Cummins" class="object-cover" />
       </div>
       <div class="marquee Item">
-        <img src="/clients/Maxiklak.png" alt="Maxiklak" class="object-cover" />
+        <img src="/Clients/Maxiklak.png" alt="Maxiklak" class="object-cover" />
       </div>
 
       <div class="marquee Item">
-        <img src="/clients/Cummins.png" alt="Cummins" class="object-cover" />
+        <img src="/Clients/Cummins.png" alt="Cummins" class="object-cover" />
       </div>
       <div class="marquee Item">
-        <img src="/clients/Maxiklak.png" alt="Maxiklak" class="object-cover" />
+        <img src="/Clients/Maxiklak.png" alt="Maxiklak" class="object-cover" />
       </div>
       <div class="marquee Item">
-        <img src="/clients/Datum.png" alt="Datum" class="object-cover" />
+        <img src="/Clients/Datum.png" alt="Datum" class="object-cover" />
       </div>
       <div class="marquee Item">
         <img
-          src="/clients/ExploService.png"
+          src="/Clients/ExploService.png"
           alt="ExploService"
           class="object-cover"
         />
       </div>
       <div class="marquee Item">
-        <img src="/clients/Sibelco.png" alt="Sibelco" class="object-cover" />
+        <img src="/Clients/Sibelco.png" alt="Sibelco" class="object-cover" />
       </div>
       <div class="marquee Item">
-        <img src="/clients/Epiroc.png" alt="Epiroc" class="object-cover" />
+        <img src="/Clients/Epiroc.png" alt="Epiroc" class="object-cover" />
       </div>
       <div class="marquee Item">
-        <img src="/clients/Cummins.png" alt="Cummins" class="object-cover" />
+        <img src="/Clients/Cummins.png" alt="Cummins" class="object-cover" />
       </div>
       <div class="marquee Item">
-        <img src="/clients/Maxiklak.png" alt="Maxiklak" class="object-cover" />
+        <img src="/Clients/Maxiklak.png" alt="Maxiklak" class="object-cover" />
       </div>
     </div>
   </div>
