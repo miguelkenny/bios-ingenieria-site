@@ -4,10 +4,14 @@
   style="border-radius: 30px;"
 >
   <div class="px-6 sm:px-12 pb-8 sm:pb-12">
-    <h2 class="font-clashg text-lg text-left mt-4 uppercase font-bold text-DarkBlue">
+    <h2
+      class="font-clashg text-lg text-left mt-4 uppercase font-bold text-DarkBlue"
+    >
       Industrias
     </h2>
-    <p class="font-clashg relative text-2xl md:text-5xl mt-2 font-medium text-left">
+    <p
+      class="font-clashg relative text-2xl md:text-5xl mt-2 font-medium text-left"
+    >
       Destáquese En Su Industria
     </p>
     <p class="text-lg my-4 text-Gray">
@@ -24,7 +28,9 @@
           alt="Industria 1"
           class="h-10 w-10 mb-4 rounded-md sm:mx-0"
         />
-        <h3 class="font-clashg mt-2 font-medium text-left text-3xl mb-2">Medicina</h3>
+        <h3 class="font-clashg mt-2 font-medium text-left text-3xl mb-2">
+          Medicina
+        </h3>
         <p class="text-md text-Gray">
           Revisión y control de calidad asegurados por nuestros directores.
         </p>
@@ -37,7 +43,11 @@
           alt="Industria 2"
           class="h-10 w-10 mb-4 rounded-md sm:mx-0"
         />
-        <h3 class="font-clashg mt-2 font-medium text-left text-2xl sm:text-3xl mb-2">Minería</h3>
+        <h3
+          class="font-clashg mt-2 font-medium text-left text-2xl sm:text-3xl mb-2"
+        >
+          Minería
+        </h3>
         <p class="text-md text-Gray">
           Revisión y control de calidad asegurados por nuestros directores.
         </p>
@@ -50,7 +60,11 @@
           alt="Industria 3"
           class="h-10 w-10 mb-4 rounded-md sm:mx-0"
         />
-        <h3 class="font-clashg mt-2 font-medium text-left text-2xl sm:text-3xl mb-2">Construcción</h3>
+        <h3
+          class="font-clashg mt-2 font-medium text-left text-2xl sm:text-3xl mb-2"
+        >
+          Construcción
+        </h3>
         <p class="text-md text-Gray">
           Revisión y control de calidad asegurados por nuestros directores.
         </p>
@@ -63,7 +77,11 @@
           alt="Industria 4"
           class="h-10 w-10 mb-4 rounded-md sm:mx-0"
         />
-        <h3 class="font-clashg mt-2 font-medium text-left text-2xl sm:text-3xl mb-2">Metalurgia</h3>
+        <h3
+          class="font-clashg mt-2 font-medium text-left text-2xl sm:text-3xl mb-2"
+        >
+          Metalurgia
+        </h3>
         <p class="text-md text-Gray">
           Revisión y control de calidad asegurados por nuestros directores.
         </p>
@@ -76,7 +94,9 @@
           alt="Industria 5"
           class="h-10 w-10 mb-4 rounded-md sm:mx-0"
         />
-        <h3 class="font-clashg mt-2 font-medium text-left text-2xl sm:text-3xl mb-2">
+        <h3
+          class="font-clashg mt-2 font-medium text-left text-2xl sm:text-3xl mb-2"
+        >
           Tratamiento de residuos
         </h3>
         <p class="text-md text-Gray">
@@ -91,7 +111,11 @@
           alt="Industria 6"
           class="h-10 w-10 mb-4 rounded-md sm:mx-0"
         />
-        <h3 class="font-clashg mt-2 font-medium text-left text-2xl sm:text-3xl mb-2">Transporte</h3>
+        <h3
+          class="font-clashg mt-2 font-medium text-left text-2xl sm:text-3xl mb-2"
+        >
+          Transporte
+        </h3>
         <p class="text-md text-Gray">
           Revisión y control de calidad asegurados por nuestros directores.
         </p>

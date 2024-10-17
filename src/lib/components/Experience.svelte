@@ -14,26 +14,44 @@
       id: 2,
       title: "Octubre 2015 - Febrero 2022",
       description:
-        "A Cargo de los cursos de inducción de hombre nuevo Minera del Carmen SA",
-      text: "Realizando tareas de Recepción de Turnos, Dictado de Cursos de Manejo Defensivo, su correspondiente corrección de para determinar aprobaciones y emisión de Licencias Internas para BARRICK - Proyecto Del Carmen”. ",
+        "A CARGO DE LOS CURSOS DE INDUCCIÓN DE CURSOS DE MANEJO DEFENSIVO CON EMISION DE LICENCIAS DE MANEJO INTERNA.  MINERA DEL CARMEN SA - San Juan- Argentina",
+      text: "Realizando tareas de Recepción de Turnos, Dictado de Cursos de Manejo Defensivo, su correspondiente corrección de para determinar aprobaciones y emisión de Licencias Internas para BARRICK – Proyecto Del Carmen”. ",
       side: "right",
       bgColor: "bg-white",
     },
     {
       id: 3,
-      title: "Octubre 2015 - Febrero 2022",
+      title: "Octubre 2016 - Octubre 2019",
       description:
-        "A Cargo de los cursos de inducción de hombre nuevo Minera del Carmen SA",
+        "A CARGO DE LOS CURSOS DE INDUCCIÓN DE HOMBRE NUEVO BARRICK EXPLORACIONES ARGENTINA SA - San Juan- Argentina",
       text: "Realizando tareas de Recepción de Turnos, Dictado de Inducciones de Seguridad, Salud y Medio Ambiente con su correspondiente corrección de evaluaciones del Cursos de Hombre Nuevo para determinar aprobaciones BARRICK - Proyecto Lama”. ",
       side: "left",
       bgColor: "bg-white",
     },
     {
       id: 4,
-      title: "Octubre 2015 - Febrero 2022",
+      title: "Marzo 2011 - Diciembre 2018",
       description:
-        "A Cargo de los cursos de inducción de hombre nuevo Minera del Carmen SA",
-      text: "Realizando tareas de Dictado, Recepción de Turnos y Corrección de evaluaciones del Cursos de Hombre Nuevo para BARRICK - Mina Veladero”.",
+        "A CARGO DE LOS CURSOS DE INDUCCIÓN DE HOMBRE NUEVO MINERA ARGENTINA GOLD SA – VELADERO San Juan– Argentina",
+      text: "Realizando tareas de Dictado, Recepción de Turnos y Corrección de evaluaciones del Cursos de Hombre Nuevo para BARRICK – Mina Veladero”. ",
+      side: "right",
+      bgColor: "bg-white",
+    },
+    {
+      id: 5,
+      title: "Junio 2012 - Octubre 2014",
+      description:
+        "A CARGO DE LOS CURSOS DE MANEJO DE ALTA MONTAÑA PARA PASCUA - LAMA, DE BEASA – San Juan– Argentina",
+      text: "Realizando tareas de Dictado, Recepción de Turnos y Corrección de evaluaciones del Cursos de Manejo de Alta Montaña”.",
+      side: "left",
+      bgColor: "bg-white",
+    },
+    {
+      id: 6,
+      title: "Marzo 2011 - A La Fecha",
+      description:
+        "A CARGO DE LA REPRESENTACION COMO RESPONSABLE DE HIGIENE Y SEGURIDAD DE DISTINTAS EMPRESAS TANTO  EN MINA VELADERO – PROYECTO PASCUA LAMA Y PROYECTO DEL CARMEN - MINA CASPOSO   San Juan– Argentina",
+      text: "",
       side: "right",
       bgColor: "bg-white",
     },
@@ -46,10 +64,14 @@
   style="border-radius: 30px;"
 >
   <div class="px-4 md:px-12 pb-8 md:pb-12">
-    <h2 class="font-clashg text-lg text-left mt-4 uppercase font-bold text-DarkBlue">
+    <h2
+      class="font-clashg text-lg text-left mt-4 uppercase font-bold text-DarkBlue"
+    >
       Experiencia
     </h2>
-    <p class="font-clashg relative text-2xl md:text-5xl mt-2 font-medium text-left">
+    <p
+      class="font-clashg relative text-2xl md:text-5xl mt-2 font-medium text-left"
+    >
       Más De Una Década De Soluciones
     </p>
     <p class="text-lg my-4 text-Gray">
@@ -77,22 +99,19 @@
           <div class="order-1 w-full md:w-5/12"></div>
           <div
             class="z-20 flex items-center order-1 bg-Black w-8 h-8 rounded-full"
-          >
-          </div>
+          ></div>
           <div
             class="order-1 {item.bgColor} rounded-3xl w-full md:w-5/12 px-4 md:px-8 md:mt-2 py-4 md:py-8 z-0"
           >
-            <h3 class="font-clashg relative text-xl mt-2 font-medium text-left text-Blue">
+            <h3
+              class="font-clashg relative text-xl mt-2 font-medium text-left text-Blue"
+            >
               {item.title}
             </h3>
-            <p
-              class="font-clashg relative text-2xl mt-2 font-medium text-left"
-            >
+            <p class="font-clashg relative text-2xl mt-2 font-medium text-left">
               {item.description}
             </p>
-            <p
-              class="text-lg my-4 text-Gray"
-            >
+            <p class="text-lg my-4 text-Gray">
               {item.text}
             </p>
           </div>

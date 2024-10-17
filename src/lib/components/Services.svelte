@@ -33,11 +33,12 @@
           class="w-full h-64 md:h-48 object-cover mb-4 rounded-md"
         />
         <h3 class="font-clashg relative text-xl md-2 font-medium text-left">
-          Higiene y Seguridad en el Trabajo
+          Consultoría de Higiene y Seguridad en el Trabajo
         </h3>
         <p class="text-Gray text-md">
-          All work is reviewed by our directors to ensure continuity and quality
-          assurance.
+          Asesoría con personal calificado y matriculado de última generación,
+          para la elaboración de la solución específica del problema de cada
+          Cliente.
         </p>
       </div>
 
@@ -65,7 +66,7 @@
           class="w-full h-64 md:h-48 object-cover mb-4 rounded-md"
         />
         <h3 class="font-clashg relative text-xl md-2 font-medium text-left">
-          Programas de Planes de Seguridad
+          Confección de Programas y Planes de Seguridad
         </h3>
         <p class="text-Gray text-md">
           All work is reviewed by our directors to ensure continuity and quality
@@ -95,11 +96,11 @@
           class="w-full h-64 md:h-48 object-cover mb-4 rounded-md"
         />
         <h3 class="font-clashg relative text-xl md-2 font-medium text-left">
-          Situación de instalaciones y riesgos potenciales
+          Situación de Instalaciones y Riesgos Potenciales
         </h3>
         <p class="text-Gray text-md">
-          All work is reviewed by our directors to ensure continuity and quality
-          assurance.
+          Medición para establecer los niveles de Puestas a Tierra, Iluminación,
+          Medición de nivel de ruidos y Carga Térmica.
         </p>
       </div>
 
@@ -110,11 +111,10 @@
           class="w-full h-64 md:h-48 object-cover mb-4 rounded-md"
         />
         <h3 class="font-clashg relative text-xl md-2 font-medium text-left">
-          Formación y entrenamiento del personal
+          Formación y Entrenamiento del Personal
         </h3>
         <p class="text-Gray text-md">
-          All work is reviewed by our directors to ensure continuity and quality
-          assurance.
+          Dictados de cursos de capacitación en temas de Higiene y Seguridad.
         </p>
       </div>
 
@@ -140,7 +140,7 @@
           class="w-full h-64 md:h-48 object-cover mb-4 rounded-md"
         />
         <h3 class="font-clashg relative text-xl md-2 font-medium text-left">
-          Estudios ergonómicos
+          Estudios Ergonómicos
         </h3>
         <p class="text-Gray text-md">
           All work is reviewed by our directors to ensure continuity and quality
