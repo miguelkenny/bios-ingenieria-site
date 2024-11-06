@@ -4,7 +4,7 @@
   let logos = [
     "/Clients/Cummins.png",
     "/Clients/Datum.png",
-    "/Clients/ExploService.png",
+    "/Clients/Exploservice.png",
     "/Clients/Maxiklak.png",
     "/Clients/Epiroc.png",
     "/Clients/Acer.png",
