@@ -33,10 +33,10 @@
           class="w-full h-64 md:h-48 object-cover mb-4 rounded-md"
         />
         <h3 class="font-clashg relative text-xl md-2 font-medium text-left">
-          Higiene y Seguridad en el Trabajo
+          Consultoría de Higiene y Seguridad en el Trabajo
         </h3>
         <p class="text-Gray text-md">
-          Implementamos medidas y procedimientos para asegurar ambientes de trabajo saludables y libres de riesgos, cumpliendo con las normativas de seguridad vigentes.
+          Asesoría con personal calificado y matriculado de última generación,para la elaboración de la solución específica del problema de cada Cliente.
         </p>
       </div>
 
@@ -63,7 +63,7 @@
           class="w-full h-64 md:h-48 object-cover mb-4 rounded-md"
         />
         <h3 class="font-clashg relative text-xl md-2 font-medium text-left">
-          Confección de Programas de Planes y de Seguridad
+          Confección de Programas y Planes de Seguridad
         </h3>
         <p class="text-Gray text-md">
           Se realizan la confeccion de programas y planes de seguridad segun Ley N° 19587.
@@ -96,7 +96,7 @@
           Situación de Instalaciones y Riesgos Potenciales
         </h3>
         <p class="text-Gray text-md">
-          Analizamos las instalaciones para identificar y mitigar riesgos potenciales, asegurando la seguridad de todos los entornos laborales.
+          Medición para establecer los niveles de Puestas a Tierra, Iluminación, Medición de nivel de ruidos y Carga Térmica.
         </p>
       </div>
 
@@ -111,7 +111,7 @@
           Formación y Entrenamiento del Personal
         </h3>
         <p class="text-Gray text-md">
-          Ofrecemos capacitación especializada para el personal, fortaleciendo sus habilidades en prácticas de seguridad y respuesta ante emergencias.
+          Dictados de cursos de capacitación en temas de Higiene y Seguridad.
         </p>
       </div>
 
