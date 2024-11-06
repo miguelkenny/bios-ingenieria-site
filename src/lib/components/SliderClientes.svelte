@@ -4,10 +4,24 @@
   let logos = [
     "/Clients/Cummins.png",
     "/Clients/Datum.png",
-    "/Clients/Exploservice.png",
+    "/Clients/ExploService.png",
     "/Clients/Maxiklak.png",
-    "/Clients/Sibelco.png",
     "/Clients/Epiroc.png",
+    "/Clients/Acer.png",
+    "/Clients/Bustin.png",
+    "/Clients/Consular.png",
+    "/Clients/efeeme.png",
+    "/Clients/Finning.png",
+    "/Clients/Gm.png",
+    "/Clients/Indumet.png",
+    "/Clients/Isemar.png",
+    "/Clients/Knight.png",
+    "/Clients/Laplatense.png",
+    "/Clients/Lg.png",
+    "/Clients/Minetech.png",
+    "/Clients/Superflow.png",
+    "/Clients/Tecma.png",
+    "/Clients/Weiresco.png",
   ];
 </script>
 
@@ -20,127 +34,27 @@
 <body>
   <div class="Marquees">
     <div class="Marquee FirstRow">
-      <div class="marquee Item">
-        <img src="/Clients/Cummins.png" alt="Cummins" class="object-cover" />
-      </div>
-      <div class="marquee Item">
-        <img src="/Clients/Maxiklak.png" alt="Maxiklak" class="object-cover" />
-      </div>
-      <div class="marquee Item">
-        <img src="/Clients/Datum.png" alt="Datum" class="object-cover" />
-      </div>
-      <div class="marquee Item">
-        <img
-          src="/Clients/Exploservice.png"
-          alt="Exploservice"
-          class="object-cover"
-        />
-      </div>
-      <div class="marquee Item">
-        <img src="/Clients/Sibelco.png" alt="Sibelco" class="object-cover" />
-      </div>
-      <div class="marquee Item">
-        <img src="/Clients/Epiroc.png" alt="Epiroc" class="object-cover" />
-      </div>
-      <div class="marquee Item">
-        <img src="/Clients/Cummins.png" alt="Cummins" class="object-cover" />
-      </div>
-      <div class="marquee Item">
-        <img src="/Clients/Maxiklak.png" alt="Maxiklak" class="object-cover" />
-      </div>
-
-      <div class="marquee Item">
-        <img src="/Clients/Datum.png" alt="Datum" class="object-cover" />
-      </div>
-      <div class="marquee Item">
-        <img
-          src="/Clients/Exploservice.png"
-          alt="Exploservice"
-          class="object-cover"
-        />
-      </div>
-      <div class="marquee Item">
-        <img src="/Clients/Sibelco.png" alt="Sibelco" class="object-cover" />
-      </div>
-      <div class="marquee Item">
-        <img src="/Clients/Epiroc.png" alt="Epiroc" class="object-cover" />
-      </div>
-      <div class="marquee Item">
-        <img src="/Clients/Cummins.png" alt="Cummins" class="object-cover" />
-      </div>
-      <div class="marquee Item">
-        <img src="/Clients/Maxiklak.png" alt="Maxiklak" class="object-cover" />
-      </div>
-      <div class="marquee Item">
-        <img src="/Clients/Datum.png" alt="Datum" class="object-cover" />
-      </div>
-      <div class="marquee Item">
-        <img
-          src="/Clients/Exploservice.png"
-          alt="Exploservice"
-          class="object-cover"
-        />
-      </div>
+      {#each logos as logo}
+        <div class="marquee Item">
+          <img
+            src={logo}
+            alt={logo.split("/").pop().split(".")[0]}
+            class="object-cover"
+          />
+        </div>
+      {/each}
     </div>
 
     <div class="Marquee SecondRow">
-      <div class="marquee Item">
-        <img src="/Clients/Cummins.png" alt="Cummins" class="object-cover" />
-      </div>
-      <div class="marquee Item">
-        <img src="/Clients/Maxiklak.png" alt="Maxiklak" class="object-cover" />
-      </div>
-      <div class="marquee Item">
-        <img src="/Clients/Datum.png" alt="Datum" class="object-cover" />
-      </div>
-      <div class="marquee Item">
-        <img
-          src="/Clients/Exploservice.png"
-          alt="Exploservice"
-          class="object-cover"
-        />
-      </div>
-      <div class="marquee Item">
-        <img src="/Clients/Sibelco.png" alt="Sibelco" class="object-cover" />
-      </div>
-      <div class="marquee Item">
-        <img src="/Clients/Epiroc.png" alt="Epiroc" class="object-cover" />
-      </div>
-      <div class="marquee Item">
-        <img src="/Clients/Cummins.png" alt="Cummins" class="object-cover" />
-      </div>
-      <div class="marquee Item">
-        <img src="/Clients/Maxiklak.png" alt="Maxiklak" class="object-cover" />
-      </div>
-
-      <div class="marquee Item">
-        <img src="/Clients/Cummins.png" alt="Cummins" class="object-cover" />
-      </div>
-      <div class="marquee Item">
-        <img src="/Clients/Maxiklak.png" alt="Maxiklak" class="object-cover" />
-      </div>
-      <div class="marquee Item">
-        <img src="/Clients/Datum.png" alt="Datum" class="object-cover" />
-      </div>
-      <div class="marquee Item">
-        <img
-          src="/Clients/Exploservice.png"
-          alt="Exploservice"
-          class="object-cover"
-        />
-      </div>
-      <div class="marquee Item">
-        <img src="/Clients/Sibelco.png" alt="Sibelco" class="object-cover" />
-      </div>
-      <div class="marquee Item">
-        <img src="/Clients/Epiroc.png" alt="Epiroc" class="object-cover" />
-      </div>
-      <div class="marquee Item">
-        <img src="/Clients/Cummins.png" alt="Cummins" class="object-cover" />
-      </div>
-      <div class="marquee Item">
-        <img src="/Clients/Maxiklak.png" alt="Maxiklak" class="object-cover" />
-      </div>
+      {#each logos as logo}
+        <div class="marquee Item">
+          <img
+            src={logo}
+            alt={logo.split("/").pop().split(".")[0]}
+            class="object-cover"
+          />
+        </div>
+      {/each}
     </div>
   </div>
 </body>

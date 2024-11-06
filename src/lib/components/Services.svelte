@@ -36,9 +36,9 @@
           Consultoría de Higiene y Seguridad en el Trabajo
         </h3>
         <p class="text-Gray text-md">
-          Asesoría con personal calificado y matriculado de última generación,
-          para la elaboración de la solución específica del problema de cada
-          Cliente.
+          Asesoría con personal calificado y matriculado de última
+          generación,para la elaboración de la solución específica del problema
+          de cada Cliente.
         </p>
       </div>
 
@@ -53,8 +53,8 @@
           Simulacros de Evacuación y de Extinción de Incendios
         </h3>
         <p class="text-Gray text-md">
-          All work is reviewed by our directors to ensure continuity and quality
-          assurance.
+          Se realizan simulacros en cada ambiente de trabajo teniendo en cuenta
+          el entorno y los distintas clases de fuegos.
         </p>
       </div>
 
@@ -69,11 +69,12 @@
           Confección de Programas y Planes de Seguridad
         </h3>
         <p class="text-Gray text-md">
-          All work is reviewed by our directors to ensure continuity and quality
-          assurance.
+          Se realizan la confeccion de programas y planes de seguridad segun Ley
+          N° 19587.
         </p>
       </div>
 
+      <!-- Servicio 4 -->
       <div>
         <img
           src="/evaluaciones-auditorias.jpg"
@@ -81,18 +82,19 @@
           class="w-full h-64 md:h-48 object-cover mb-4 rounded-md"
         />
         <h3 class="font-clashg relative text-xl md-2 font-medium text-left">
-          Estudios, evaluaciones, auditorias de control y verificación
+          Estudios, Evaluaciones y Auditorías de Control y Verificación
         </h3>
         <p class="text-Gray text-md">
-          All work is reviewed by our directors to ensure continuity and quality
-          assurance.
+          Realizamos auditorias, evaluaciones y estudios para cada tipo de
+          empresa
         </p>
       </div>
 
+      <!-- Servicio 5 -->
       <div>
         <img
           src="/situacion-instalaciones.jpg"
-          alt="Servicio 3"
+          alt="Servicio 5"
           class="w-full h-64 md:h-48 object-cover mb-4 rounded-md"
         />
         <h3 class="font-clashg relative text-xl md-2 font-medium text-left">
@@ -100,14 +102,17 @@
         </h3>
         <p class="text-Gray text-md">
           Medición para establecer los niveles de Puestas a Tierra, Iluminación,
-          Medición de nivel de ruidos y Carga Térmica.
+          Medición de nivel de ruidos y Carga Térmica. Medición para establecer
+          los niveles de Puestas a Tierra, Iluminación, Medición de nivel de
+          ruidos y Carga Térmica.
         </p>
       </div>
 
+      <!-- Servicio 6 -->
       <div>
         <img
           src="/capacitacion.jpeg"
-          alt="Servicio 3"
+          alt="Servicio 6"
           class="w-full h-64 md:h-48 object-cover mb-4 rounded-md"
         />
         <h3 class="font-clashg relative text-xl md-2 font-medium text-left">
@@ -118,48 +123,52 @@
         </p>
       </div>
 
+      <!-- Servicio 7 -->
       <div>
         <img
           src="/relevamiento-mediciones.jpg"
-          alt="Servicio 3"
+          alt="Servicio 7"
           class="w-full h-64 md:h-48 object-cover mb-4 rounded-md"
         />
         <h3 class="font-clashg relative text-xl md-2 font-medium text-left">
-          Relevamiento y mediciones de agentes de riesgo
+          Relevamiento y Mediciones de Agentes de Riesgo
         </h3>
         <p class="text-Gray text-md">
-          All work is reviewed by our directors to ensure continuity and quality
-          assurance.
+          Medición para establecer los niveles de Puestas a Tierra, Iluminación,
+          Medición de nivel de ruidos y Carga Térmica. Medicion de polvo en
+          suspención.
         </p>
       </div>
 
+      <!-- Servicio 8 -->
       <div>
         <img
           src="/estudios-ergonomicos.jpg"
-          alt="Servicio 3"
+          alt="Servicio 8"
           class="w-full h-64 md:h-48 object-cover mb-4 rounded-md"
         />
         <h3 class="font-clashg relative text-xl md-2 font-medium text-left">
           Estudios Ergonómicos
         </h3>
         <p class="text-Gray text-md">
-          All work is reviewed by our directors to ensure continuity and quality
-          assurance.
+          Evaluamos condiciones ergonómicas para optimizar el bienestar de los
+          trabajadores y reducir riesgos de lesiones.
         </p>
       </div>
 
+      <!-- Servicio 9 -->
       <div>
         <img
           src="/gestion-logistica.jpg"
-          alt="Servicio 3"
+          alt="Servicio 9"
           class="w-full h-64 md:h-48 object-cover mb-4 rounded-md"
         />
         <h3 class="font-clashg relative text-xl md-2 font-medium text-left">
-          Servicio Integral de Gestión y Logística
+          Sistema de Gestión
         </h3>
         <p class="text-Gray text-md">
-          All work is reviewed by our directors to ensure continuity and quality
-          assurance.
+          Implementamos sistemas de gestión de seguridad laboral y ambiental,
+          alineados con las normativas internacionales.
         </p>
       </div>
     </div>

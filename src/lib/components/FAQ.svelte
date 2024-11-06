@@ -4,30 +4,37 @@
       question: "¿Cómo puedo contratar sus servicios?",
       answer:
         "Puedes ponerte en contacto con nosotros a través de nuestro teléfono +540264 4228938, celular +54 0264 154369135 o enviarnos un correo electrónico a biosing@hotmail.com.ar. Estaremos encantados de coordinar una consulta o reunión para evaluar tus necesidades.",
-      isOpen: false,
+      isOpen: true,
     },
     {
       question: "¿Qué tipo de capacitaciones ofrecen?",
       answer:
-        "You can check the official Chanel website or contact their customer service for more information on pricing and availability.",
+        "En base a los riesgos asociados a la tarea de nuestros clientes confeccionamos un plan de capacitacion que involucren las area de salud, seguridad y medio ambiente. Elaboramos un plan anual de capacitación, diseñado y adaptado a las necesidades de cada organización. Formamos y capacitamos, concientizando a los trabajadores y promoviendo una cultura colectiva de prevención. Buscamos estimular el interés e incentivar la participación sobre la preservación de la salud, la detección de condiciones inseguras, el reporte de factores de riesgos presentes en los espacios de trabajo, etc. Brindamos capacitaciones en modalidad online o presencial, con entrega de material de apoyo (flyers informativos y didácticos, manuales, procedimientos, videos, entre otros)",
       isOpen: false,
     },
     {
       question: "¿Realizan mediciones de seguridad en el lugar de trabajo?",
       answer:
-        "Chanel typically releases multiple collections each year, including Spring-Summer, Fall-Winter, and special editions.",
+        `Adaptándonos a las necesidades de cada organización y a la normativa legal vigente, se realizan los relevamientos necesarios, y mediciones con equipos en caso de corresponder, y se confeccionan los siguientes estudios.
+          •	Estudios de carga de fuego, según Decreto 351/79
+          •	Estudios de iluminación, según Resolución SRT 84/2012
+          •	Estudios de ruido, según Resolución SRT 85/2012
+          •	Estudios de estrés térmico, según Resolución SRT 295/03
+          •	Estudios de puesta a tierra, según Resolución SRT 900/2015
+          •	Estudios de ergonomía, según Resolución SRT 886/2015`
+          ,
       isOpen: false,
     },
     {
       question: "¿Qué experiencia tienen en el sector?",
       answer:
-        "Chanel typically releases multiple collections each year, including Spring-Summer, Fall-Winter, and special editions.",
+        "nos avalan mas de 20 años en materia de prevencion laboral atentiendo a corporaciones locales e internacionales.",
       isOpen: false,
     },
     {
-      question: "¿Qué tipo de certificaciones y permisos tienen?",
+      question: "¿Qué tipo de Certificaciones tienen?",
       answer:
-        "Chanel typically releases multiple collections each year, including Spring-Summer, Fall-Winter, and special editions.",
+        "Nuestro equipo de trabajo profesional cuenta con personal matriculados de Ingenieros, licenciados y tecnicos, a su vez, teniendo formaciones complementarias como ISO 45001, ISO 14001 lider ICAM (metodologia de investigacion de accidentes laborales), Bow-tie, posgrado en economia, entre otros.",
       isOpen: false,
     },
   ];
