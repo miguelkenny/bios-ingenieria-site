@@ -101,10 +101,10 @@
           Situación de Instalaciones y Riesgos Potenciales
         </h3>
         <p class="text-Gray text-md">
-          Medición para establecer los niveles de Puestas a Tierra, Iluminación,
-          Medición de nivel de ruidos y Carga Térmica. Medición para establecer
-          los niveles de Puestas a Tierra, Iluminación, Medición de nivel de
-          ruidos y Carga Térmica.
+          Es un servicio que evalúa el estado de las instalaciones y detecta
+          riesgos que puedan afectar la seguridad y eficiencia operativa,
+          ayudando a prevenir problemas críticos y optimizar la gestión de
+          infraestructura.
         </p>
       </div>
 
