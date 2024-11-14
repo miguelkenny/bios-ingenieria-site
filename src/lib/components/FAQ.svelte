@@ -3,7 +3,7 @@
     {
       question: "¿Cómo puedo contratar sus servicios?",
       answer:
-        "Puedes ponerte en contacto con nosotros a través de nuestro teléfono +540264 4228938, celular +54 0264 154369135 o enviarnos un correo electrónico a biosing@hotmail.com.ar. Estaremos encantados de coordinar una consulta o reunión para evaluar tus necesidades.",
+        "Puedes ponerte en contacto con nosotros a través de nuestro teléfono +540264 4228938, celular +54 0264 154369135 o enviarnos un correo electrónico a gustavo@biosing.com.ar. Estaremos encantados de coordinar una consulta o reunión para evaluar tus necesidades.",
       isOpen: true,
     },
     {
@@ -14,15 +14,13 @@
     },
     {
       question: "¿Realizan mediciones de seguridad en el lugar de trabajo?",
-      answer:
-        `Adaptándonos a las necesidades de cada organización y a la normativa legal vigente, se realizan los relevamientos necesarios, y mediciones con equipos en caso de corresponder, y se confeccionan los siguientes estudios.
+      answer: `Adaptándonos a las necesidades de cada organización y a la normativa legal vigente, se realizan los relevamientos necesarios, y mediciones con equipos en caso de corresponder, y se confeccionan los siguientes estudios.
           •	Estudios de carga de fuego, según Decreto 351/79
           •	Estudios de iluminación, según Resolución SRT 84/2012
           •	Estudios de ruido, según Resolución SRT 85/2012
           •	Estudios de estrés térmico, según Resolución SRT 295/03
           •	Estudios de puesta a tierra, según Resolución SRT 900/2015
-          •	Estudios de ergonomía, según Resolución SRT 886/2015`
-          ,
+          •	Estudios de ergonomía, según Resolución SRT 886/2015`,
       isOpen: false,
     },
     {
@@ -51,10 +49,14 @@
   id="faq"
   class="lg:container lg:mx-auto lg:py-16 md:py-12 md:px-6 py-12 m-1 md:m-8"
 >
-  <h2 class="font-clashg text-lg text-center mt-4 uppercase font-bold text-DarkBlue">
+  <h2
+    class="font-clashg text-lg text-center mt-4 uppercase font-bold text-DarkBlue"
+  >
     Preguntas Frecuentes
   </h2>
-  <p class="font-clashg relative text-2xl md:text-5xl mt-2 font-medium text-center">
+  <p
+    class="font-clashg relative text-2xl md:text-5xl mt-2 font-medium text-center"
+  >
     Encontrá Respuestas a tus Preguntas
   </p>
 
@@ -82,9 +84,7 @@
 
         {#if faq.isOpen}
           <div class="w-full mb-8">
-            <p
-              class="text-md sm:text-lg leading-7 sm:leading-8 text-Gray"
-            >
+            <p class="text-md sm:text-lg leading-7 sm:leading-8 text-Gray">
               {faq.answer}
             </p>
           </div>
