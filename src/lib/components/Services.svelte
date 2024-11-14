@@ -188,7 +188,7 @@
   <div class="flex w-full justify-center flex-wrap my-6 gap-x-5 gap-y-3">
     <!-- Tarjeta 1 -->
     <div
-      class="bg-Black flex items-center justify-center py-3 px-6 md:py-3 md:px-6 w-max text-white rounded-xl border border-gray-300"
+      class="bg-Black flex items-center justify-center py-3 px-6 md:py-3 md:px-6 sm:py-3 sm:px-6 w-max text-white rounded-xl border border-gray-300"
     >
       <img
         src={"/Icons/shield.svg"}
@@ -202,7 +202,7 @@
 
     <!-- Tarjeta 2 -->
     <div
-      class="bg-Black flex items-center justify-center px-6 md:px-6 w-max text-white rounded-xl border border-gray-300"
+      class="bg-Black flex items-center justify-center py-3 px-6 md:py-3 md:px-6 w-max text-white rounded-xl border border-gray-300"
     >
       <img
         src={"/Icons/stopwatch.svg"}
@@ -210,7 +210,7 @@
         class="h-6 w-6 md:h-8 md:w-8 mr-4"
       />
       <div>
-        <p class="font-clashg font-medium text-md md:text-lg">
+        <p class="font-clashg font-medium text-md md:text-lg sm:py-6">
           Puntualidad En Los Servicios
         </p>
       </div>
