@@ -10,7 +10,7 @@
     const formData = { firstName, lastName, email, message };
 
     const response = await fetch(
-      "https://bios-ingenieria-site.vercel.ap/send-email",
+      "https://bios-ingenieria-site.vercel.app/send-email",
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },
