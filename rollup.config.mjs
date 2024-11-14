@@ -40,6 +40,10 @@ export default {
 		name: 'app',
 		file: 'public/build/bundle.js'
 	},
+	onwarn(warning, warn) {
+		if (warning.code === 'THIS_IS_UNDEFINED' || warning.code === 'CIRCULAR_DEPENDENCY') return;
+		warn(warning); // this will only show other warnings
+	},
 	plugins: [
 		postcss({
 			extract: true, // extrae el CSS en un archivo separado
