@@ -118,7 +118,7 @@
 
   <div class="flex flex-col gap-y-10 md:flex-row md:gap-x-20">
     <p class="font-clashg relative text-xl mt-2 font-medium text-left">
-      +54 0264 154369135
+      +54 264 154369135
     </p>
     <p class="font-clashg relative text-xl mt-2 font-medium text-left">
       gustavo@biosing.com.ar
