@@ -8,6 +8,7 @@ import terser from '@rollup/plugin-terser';
 import resolve from '@rollup/plugin-node-resolve';
 import livereload from 'rollup-plugin-livereload';
 import css from 'rollup-plugin-css-only';
+import html from '@rollup/plugin-html';
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -53,6 +54,13 @@ export default {
 				tailwindcss(),
 				autoprefixer(),
 			],
+		}),
+		html({
+			title: 'Bios Ingenieria', // Título para la página HTML
+			meta: [
+				{ charset: 'utf-8' },
+				{ name: 'viewport', content: 'width=device-width, initial-scale=1' }
+			]
 		}),
 		svelte({
 			compilerOptions: {
