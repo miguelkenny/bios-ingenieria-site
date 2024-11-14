@@ -1,3 +1,32 @@
+<script>
+  let firstName = "";
+  let lastName = "";
+  let email = "";
+  let message = "";
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+
+    const formData = { firstName, lastName, email, message };
+
+    const response = await fetch("http://localhost:3000/send-email", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(formData),
+    });
+
+    if (response.ok) {
+      alert("Mensaje enviado correctamente. Pronto nos pondremos en contacto.");
+      firstName = "";
+      lastName = "";
+      email = "";
+      message = "";
+    } else {
+      alert("Hubo un problema al enviar el mensaje");
+    }
+  };
+</script>
+
 <section
   id="contact"
   class="contact px-4 md:px-20 py-10 md:py-10 m-4 md:m-8 flex flex-col justify-between items-center gap-y-10 bg-Blue"
@@ -32,7 +61,7 @@
     <div
       class="w-full md:w-max bg-white p-2 md:p-8 py-10 mr-0 md:mr-20 rounded-3xl shadow-lg"
     >
-      <form class="py-2">
+      <form on:submit={handleSubmit} class="py-2">
         <div class="w-full flex flex-col md:flex-row md:space-x-4">
           <!-- Contenedor para Nombre -->
           <div class="mb-4 w-full md:w-1/2">
@@ -40,6 +69,7 @@
             <input
               type="text"
               id="firstName"
+              bind:value={firstName}
               class="w-full p-3 border-b-2 border-gray-200 rounded-lg"
             />
           </div>
@@ -50,6 +80,7 @@
             <input
               type="text"
               id="lastName"
+              bind:value={lastName}
               class="w-full p-3 border-b-2 border-gray-200 rounded-lg"
             />
           </div>
@@ -59,6 +90,7 @@
           <input
             type="email"
             id="email"
+            bind:value={email}
             class="w-full p-3 border-b-2 border-gray-200 rounded-lg"
           />
         </div>
@@ -67,6 +99,7 @@
           <label for="message" class="font-clashg text-lg">Mensaje</label>
           <textarea
             id="message"
+            bind:value={message}
             class="w-full p-3 border-b-2 border-gray-200 rounded-lg"
             rows="4"
           ></textarea>
