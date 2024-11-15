@@ -73,7 +73,7 @@
   }
 
   .FirstRow {
-    animation: Scroll 20s linear infinite;
+    animation: Scroll 15s linear infinite;
   }
   /* Animación de desplazamiento */
   @keyframes Scroll {
