@@ -8,6 +8,10 @@
     "/i5.jpeg",
     "/i6.jpeg",
     "/i7.jpeg",
+    "/i8.jpeg",
+    "/i9.jpeg",
+    "/i10.jpeg",
+    "/i11.jpeg",
   ];
 </script>
 
