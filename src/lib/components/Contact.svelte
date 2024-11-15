@@ -1,4 +1,6 @@
 <script>
+  import emailjs from "emailjs-com";
+
   let firstName = "";
   let lastName = "";
   let email = "";
@@ -7,21 +9,31 @@
   const handleSubmit = async (event) => {
     event.preventDefault();
 
-    const formData = { firstName, lastName, email, message };
+    // Configura el objeto de datos para enviar con EmailJS
+    const templateParams = {
+      firstName,
+      lastName,
+      email,
+      message,
+    };
 
-    const response = await fetch("https://biosing.com.ar/send-email", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(formData),
-    });
-
-    if (response.ok) {
+    try {
+      // Reemplaza 'YOUR_TEMPLATE_ID' y 'YOUR_USER_ID' con tu Template ID y User ID de EmailJS
+      await emailjs.send(
+        "service_10ni2li",
+        "template_kxo4ila",
+        templateParams,
+        "P5Kf34xNv7Z-94lZx"
+      );
       alert("Mensaje enviado correctamente. Pronto nos pondremos en contacto.");
+
+      // Resetea los campos del formulario
       firstName = "";
       lastName = "";
       email = "";
       message = "";
-    } else {
+    } catch (error) {
+      console.error("Error al enviar el mensaje:", error);
       alert("Hubo un problema al enviar el mensaje");
     }
   };
