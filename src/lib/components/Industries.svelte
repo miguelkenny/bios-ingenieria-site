@@ -32,7 +32,9 @@
           Medicina
         </h3>
         <p class="text-md text-Gray">
-          Revisión y control de calidad asegurados por nuestros directores.
+          Proveemos soluciones de higiene y seguridad estrictamente reguladas
+          para entornos médicos, garantizando un ambiente controlado y seguro
+          para el personal y los pacientes.
         </p>
       </div>
 
@@ -49,7 +51,9 @@
           Minería
         </h3>
         <p class="text-md text-Gray">
-          Revisión y control de calidad asegurados por nuestros directores.
+          Ofrecemos medidas de seguridad industrial para condiciones extremas en
+          minería, asegurando el bienestar del equipo en un entorno exigente y
+          de alto riesgo.
         </p>
       </div>
 
@@ -66,7 +70,9 @@
           Construcción
         </h3>
         <p class="text-md text-Gray">
-          Revisión y control de calidad asegurados por nuestros directores.
+          Implementamos controles de higiene y seguridad en obras de
+          construcción, minimizando riesgos y protegiendo a los trabajadores en
+          cada etapa del proyecto.
         </p>
       </div>
 
@@ -83,7 +89,9 @@
           Metalurgia
         </h3>
         <p class="text-md text-Gray">
-          Revisión y control de calidad asegurados por nuestros directores.
+          Desarrollamos soluciones personalizadas para el sector metalúrgico,
+          enfocadas en la seguridad operativa y la reducción de la exposición a
+          materiales peligrosos.
         </p>
       </div>
 
@@ -97,10 +105,12 @@
         <h3
           class="font-clashg mt-2 font-medium text-left text-2xl sm:text-3xl mb-2"
         >
-          Tratamiento de residuos
+          Tratamiento de Residuos
         </h3>
         <p class="text-md text-Gray">
-          Revisión y control de calidad asegurados por nuestros directores.
+          Brindamos soluciones integrales para la gestión de residuos, enfocadas
+          en la higiene y el control de contaminantes para un entorno seguro y
+          sustentable.
         </p>
       </div>
 
@@ -117,7 +127,9 @@
           Transporte
         </h3>
         <p class="text-md text-Gray">
-          Revisión y control de calidad asegurados por nuestros directores.
+          Garantizamos prácticas de higiene y seguridad en el transporte de
+          mercancías, protegiendo tanto a los operadores como a la carga en
+          tránsito.
         </p>
       </div>
     </div>
