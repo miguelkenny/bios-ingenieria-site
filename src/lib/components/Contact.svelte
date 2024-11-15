@@ -1,5 +1,6 @@
 <script>
   import emailjs from "emailjs-com";
+  import DOMPurify from "dompurify";
 
   let firstName = "";
   let lastName = "";
@@ -9,12 +10,22 @@
   const handleSubmit = async (event) => {
     event.preventDefault();
 
+    // Sanitizar el mensaje para evitar scripts maliciosos
+    const sanitizedMessage = DOMPurify.sanitize(message);
+
+    // Validación de correo electrónico
+    const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    if (!emailPattern.test(email)) {
+      alert("Por favor, ingresa un email válido.");
+      return;
+    }
+
     // Configura el objeto de datos para enviar con EmailJS
     const templateParams = {
       firstName,
       lastName,
       email,
-      message,
+      message: sanitizedMessage,
     };
 
     try {
