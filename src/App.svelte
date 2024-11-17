@@ -34,6 +34,14 @@
 </script>
 
 <div>
+    <div class="flex justify-end">
+      <a
+        href="https://capacitaciones-bios.notion.site/BIOS-Ingenier-a-SISTEMA-DE-GESTI-N-e45da4f007b041c1ae85d417f54c4388?pvs=4"
+        target="_blank"
+        rel="no_referrer"
+        class="font-clashg text-lg text-black hover:text-Blue">Ingreso Sistema</a
+      >
+    </div>
   <!-- Navbar -->
   <nav
     class="sticky mx-auto top-5 w-full sm:w-max h-max bg-LightBlue border border-gray-300 p-4 rounded-3xl flex justify-between items-center z-50"

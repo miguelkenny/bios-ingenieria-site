@@ -33,6 +33,12 @@
           href="#contact"
           class="font-clashg text-lg text-white hover:text-Blue">Contacto</a
         >
+        <a
+          href="https://capacitaciones-bios.notion.site/BIOS-Ingenier-a-SISTEMA-DE-GESTI-N-e45da4f007b041c1ae85d417f54c4388?pvs=4"
+          target="_blank"
+          rel="no_referrer"
+          class="font-clashg text-lg text-white hover:text-Blue">Ingreso Sistema</a
+        >
       </div>
     </div>
 
